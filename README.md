@@ -14,6 +14,7 @@ An embedded automotive-safety prototype that measures obstacle distance and spee
 - Arduino Uno R3 controller on transmitter and receiver sides
 
 ## System Architecture
+![System Block Diagram](docs/images/block_diagram.png)
 
 ```text
 TRANSMITTER UNIT                         RECEIVER UNIT
@@ -26,6 +27,7 @@ Speed Sensor ───────┘                                      ├�
 ```
 
 ## Working Principle
+![Project Flow Diagram](docs/images/flow_diagram.png)
 
 1. The transmitter Arduino measures obstacle distance using the ultrasonic sensor.
 2. Vehicle/motor speed is measured using the speed sensor.
@@ -37,6 +39,7 @@ Speed Sensor ───────┘                                      ├�
 8. The process repeats continuously.
 
 ## Hardware
+![Hardware Pin Connections](docs/images/pin_table.png)
 
 ### Transmitter
 
@@ -132,6 +135,9 @@ The transmitter listing in the report also contains a pin-definition mismatch wi
 ## Prototype
 
 The submitted project report contains a photograph of the assembled prototype in the Results chapter. See `docs/images/prototype_result.png`.
+## 📸 Project Prototype
+
+![Working Prototype](docs/images/prototype_result.png)
 
 ## Applications
 
